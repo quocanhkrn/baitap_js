@@ -43,6 +43,37 @@
       var VND = USD * rate;
       console.log("Bài 3:");
       console.log(USD + " USD = " + VND + " VNĐ");
+      console.log("");
+
+      // BÀI 4
+      // ĐẦU VÀO: Chiều dài và chiều rộng của hình chữ nhật
+      // XỬ LÝ:
+      // - Diện tích = Chiều dài x Chiều rộng
+      // - Chu vi = (Chiều dài + Chiều rộng) x 2
+      // ĐẦU RA: Xuất ra Diện tích và Chu vi
+      var width = 13;
+      var length = 24;
+      var area = width * length;
+      var perimeter = (width + length) * 2;
+      console.log("Bài 4:");
+      console.log("Diện tích: " + area);
+      console.log("Chu vi: " + perimeter);
+      console.log("");
+
+      // BÀI 5
+      // ĐẦU VÀO: Số có 2 chữ số
+      // XỬ LÝ:
+      // - Tổng 2 ký số = Số hàng chục + Số hàng đơn vị
+      // - Số hàng chục = Số / 10
+      // - Số hàng đơn vị = Số % 10
+      // ĐẦU RA: Xuất ra tổng 2 ký số
+      var num = 23;
+      var tens = Math.floor(num / 10);
+      var units = num % 10;
+      var sum = tens + units;
+      console.log("Bài 5:");
+      console.log("Tổng 2 kí số: " + sum);
+      console.log("");
     </script>
   </body>
 </html>
